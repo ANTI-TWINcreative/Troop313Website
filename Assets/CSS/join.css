@@ -1,0 +1,66 @@
+.join-how-to
+{
+	margin: 75px 75px 20px;
+	height: 420px;
+}
+
+.join-how-to h1
+{
+	padding-top: 35px;
+}
+
+.join-how-to h1, .join-how-to span
+{
+	margin: 50px;
+}
+
+.join-how-to span
+{
+	padding-right: 60px;
+}
+
+.join-how-to a
+{
+	color: blue;
+}
+
+.join-how-to a:hover
+{
+	color: green;
+}
+
+.join-how-to:after
+{
+    content: "";
+    height: 3px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(56, 58, 61, 1) 50%,rgba(0,0,0,0) 100%);
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.new-scouts
+{
+	margin: 35px 75px 20px;
+	padding-bottom: 30px;
+}
+
+.new-scouts h1
+{
+	font-size: 24pt;
+}
+
+.new-scouts h2
+{
+	font-size: 16pt;
+}
+
+.new-scouts ul
+{
+	list-style-type: none;
+}
+
+.new-scouts li
+{
+	padding: 5px;
+}

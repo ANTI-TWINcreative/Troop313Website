@@ -1,0 +1,155 @@
+.content-divider
+{
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.content-divider:before, .content-divider:after
+{
+    content: "";
+    height: 3px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(56, 58, 61, 1) 50%,rgba(0,0,0,0) 100%);
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.info-area
+{
+	margin: 50px;
+}
+
+.info-button
+{
+	margin: 50px;
+	border: none;
+	display: inline-block;
+	background-color: rgba(63, 80, 191, 0);
+	font-weight: bold;
+	color: #42454b;
+}
+
+.info-button:hover
+{
+	cursor: pointer;
+}
+
+.info-button:hover img
+{
+	transform-origin: top;
+  animation: scale 300ms ease-in-out forwards;
+}
+
+.welcome
+{
+	margin-top: 75px;
+	padding: 30px;
+}
+
+@keyframes scale
+{
+  to
+	{
+    transform: scale(1.2);
+  }
+}
+
+.flashy-content
+{
+	display: block;
+	position: relative;
+	margin: auto;
+	padding: 10% 0;
+	top: 20px;
+	width: 95%;
+	height: 250px !important;
+	border:  10px solid #659aac;
+	border-radius: 10px;
+	-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+.flashy-content h2, .welcome
+{
+	text-align: center;
+}
+
+.intro, .vision-statment
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.intro
+{
+	padding: 10px;
+	font-size: 18pt;
+}
+
+.vision-statment
+{
+	margin: 10px 25px 100px;
+}
+
+.vision-statment h1
+{
+	font-size: 20pt;
+}
+
+.vision-statment h1, .vision-statment p, .vision-statment ul
+{
+	margin: 50px;
+}
+
+.vision-statment h1, .vision-statment p
+{
+	text-align: center;
+}
+
+.vision-list ul
+{
+  padding-left: 13%;
+	text-align: justify;
+}
+
+.test-thing
+{
+	height: 500px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove
+{
+    50% {border-color: black;}
+}
+
+@keyframes mymove
+{
+    50% {border-color: black;}
+}
+
+@media only screen and (max-width: 520px)
+{
+
+	nav li
+	{
+		padding: 24px 4px;
+	}
+
+	nav li a
+	{
+		font-size: 14px;
+	}
+
+}
+
+/* Font Face Settings */
+@font-face
+{
+    font-family: 'open-sans-bold';
+	src: url('../fonts/open-sans/OpenSans-Bold.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/open-sans/OpenSans-Bold.ttf');
+    font-weight: normal;
+}

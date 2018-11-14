@@ -1,0 +1,199 @@
+*
+{
+	margin: 0; padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body, .info-button, .intro, .vision-statment h1, .vision-statment p
+{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/* Navigation Settings */
+nav
+{
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	padding-top: 5px;
+	background: rgb(37,37,60);
+	background: linear-gradient(0deg, rgba(37,37,60,0.9976191160057774) 0%,
+		rgba(47,47,64,1) 34%, rgba(64,78,91,1) 38%, rgba(0,0,0,1) 100%);
+	opacity: 0.98;
+}
+
+nav li
+{
+	display: inline-block;
+	padding: 30px 60px;
+}
+
+nav li a
+{
+	display: block;
+	color: #a5aaad;
+	text-transform: uppercase;
+}
+
+#main_nav a:hover
+{
+	color: #a274ad;
+}
+
+.active
+{
+  color: #659aac;
+}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+.header-container
+{
+	position: relative;
+	margin: auto;
+	height: auto;
+	width: auto;
+	background: rgb(37,37,60);
+	background: linear-gradient(0deg, rgba(37,37,60,0.9976191160057774) 0%, rgba(82,115,150,1) 51%, rgba(55,65,94,1) 90%);
+}
+
+.transbox
+{
+	position: absolute;
+	top: 50%;
+  left: 50%;
+	height: 85%;
+	width: 60%;
+  transform: translate(-50%, -50%);
+	background: rgb(140,144,153);
+	background: linear-gradient(0deg, rgba(140,144,153,0.9976191160057774) 0%,
+		rgba(181,189,196,1) 28%, rgba(181,189,196,1) 68%, rgba(129,135,135,1) 100%);
+	border-radius: 50px / 80px;
+	border: 1px solid white;
+	opacity: 0.93;
+  filter: alpha(opacity=45); /* For IE8 and earlier */
+}
+
+.header-img
+{
+	margin: auto;
+	background-image: url(http://interfacelift.com/wallpaper/previews/04149_mountainlake_672x420.jpg);
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.35;
+}
+
+.logo
+{
+	position: relative;
+	margin: auto;
+	display: block;
+	top: 20%;
+	width: 75%;
+}
+
+.logo-patch
+{
+	max-width: 30%;
+}
+
+.main
+{
+	width: auto;
+	top: 20%;
+	min-height: 600px;
+	height: auto !important;
+	height: 1200px;
+	background-color: #c8c8c8;
+}
+
+/* main content area styles */
+.content-wrapper
+{
+	margin: auto;
+	width: 75%;
+	min-height: 600px;
+	height: auto !important;
+	height: 600px;
+	background: rgb(109,112,115);
+	background: linear-gradient(0deg, rgba(109,112,115,1) 0%, rgba(164,172,179,1) 33%, rgba(164,172,179,1) 90%,
+		rgba(129,131,131,1) 100%);
+	-webkit-box-shadow: 0 0 10px #063040;
+  box-shadow: 0 0 10px #063040;
+}
+
+.footer
+{
+	height: 100px;
+}
+
+.footer p
+{
+	text-align: center;
+	padding-top: 25px;
+	color: #a8abad;
+	text-shadow: 2px 2px #555b60;
+}
+
+.footer:before
+{
+    content: "";
+    height: 3px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(56, 58, 61, 1) 50%,rgba(0,0,0,0) 100%);
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.vision-list, .list-one, .list-two, .list-three
+{
+	padding: 15px;
+	border-radius: 10px;
+  border-style: outset;
+  border-width: 3px;
+  border-color: #555b60;
+	color: #a4acb3;
+	background: rgb(45,50,57);
+	background: linear-gradient(0deg, rgba(45,50,57,1) 0%, rgba(62,67,71,1) 49%, rgba(35,37,40,1) 100%);
+	-webkit-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
+}
+
+#patch-one, #header-logo h1, #patch-two
+{
+	display: inline-block;
+}
+
+#header-logo h1
+{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40pt;
+	font-;
+}
+
+.test
+{
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 500px;
+	border: 2px solid black;
+}
